@@ -1,0 +1,176 @@
+{
+    "bounding-boxes": {
+        "section-sell": [
+            193,
+            58,
+            80,
+            40
+        ],
+        "section-sell-bank": [
+            279,
+            56,
+            165,
+            40
+        ],
+        "section-gear": [
+            95,
+            123,
+            490,
+            50
+        ],
+        "section-item": [
+            445,
+            190,
+            215,
+            288
+        ],
+        "button-sell": [
+            186,
+            410,
+            115,
+            25
+        ],
+        "button-next-page": [
+            670,
+            299,
+            33,
+            70
+        ],
+        "button-next-tab": [
+            654,
+            122,
+            50,
+            50
+        ],
+        "button-exit": [
+            667,
+            489,
+            40,
+            40
+        ],
+        "button-sell-yes": [
+            355,
+            358,
+            100,
+            25
+        ],
+        "button-sell-no": [
+            460,
+            358,
+            100,
+            25
+        ],
+        "quantity-items": [
+            138,
+            500,
+            115,
+            25
+        ]
+    },
+    "color-hsv-range": {
+        "section-item": {
+            "threshold": [
+                [
+                    163,
+                    206,
+                    70
+                ],
+                [
+                    180,
+                    255,
+                    203
+                ]
+            ],
+            "morphology": [
+                [
+                    "D",
+                    [
+                        3,
+                        3
+                    ],
+                    1
+                ]
+            ]
+        },
+        "button-next-page": {
+            "threshold": [
+                [
+                    0,
+                    195,
+                    106
+                ],
+                [
+                    22,
+                    246,
+                    215
+                ]
+            ],
+            "morphology": [
+                [
+                    "D",
+                    [
+                        4,
+                        4
+                    ],
+                    1
+                ]
+            ]
+        },
+        "yellow-text": {
+            "threshold": [
+                [
+                    26,
+                    246,
+                    218
+                ],
+                [
+                    33,
+                    255,
+                    255
+                ]
+            ],
+            "morphology": []
+        },
+        "select-color": {
+            "threshold": [
+                [
+                    51,
+                    0,
+                    1
+                ],
+                [
+                    68,
+                    20,
+                    255
+                ]
+            ],
+            "morphology": [
+                [
+                    "D",
+                    [
+                        7,
+                        7
+                    ],
+                    2
+                ]
+            ]
+        }
+    },
+    "constants": {
+        "auction-sections": [
+            1
+        ],
+        "auction-tabs": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "item-thresh": 0.5,
+        "select-thresh": 0.2
+    }
+}

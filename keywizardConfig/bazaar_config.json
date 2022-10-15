@@ -1,0 +1,140 @@
+{
+    "bounding_boxes": {
+        "window": [
+            6,
+            30,
+            800,
+            600
+        ],
+        "reagent": [
+            100,
+            120,
+            55,
+            55
+        ],
+        "buy_more": [
+            135,
+            470,
+            115,
+            25
+        ],
+        "next_page": [
+            564,
+            443,
+            35,
+            35
+        ],
+        "next_tab": [
+            653,
+            122,
+            50,
+            50
+        ],
+        "loading": [
+            334,
+            274,
+            122,
+            33
+        ],
+        "sect_name": [
+            292,
+            206,
+            220,
+            230
+        ],
+        "sect_quantity": [
+            513,
+            206,
+            46,
+            230
+        ],
+        "confirm_buy": [
+            268,
+            456,
+            100,
+            25
+        ],
+        "quantity_bar": [
+            405,
+            345,
+            130,
+            25
+        ],
+        "confirm_receipt": [
+            463,
+            345,
+            100,
+            40
+        ]
+    },
+    "color_thresh": {
+        "black_text": [
+            [
+                0,
+                0,
+                175
+            ],
+            [
+                157,
+                255,
+                255
+            ]
+        ],
+        "yellow_text": [
+            [
+                30,
+                219,
+                148
+            ],
+            [
+                30,
+                255,
+                255
+            ]
+        ],
+        "yellow_text_inv": [
+            [
+                30,
+                219,
+                148
+            ],
+            [
+                30,
+                255,
+                255
+            ]
+        ],
+        "red_text": [
+            [
+                0,
+                195,
+                145
+            ],
+            [
+                14,
+                243,
+                230
+            ]
+        ]
+    },
+    "constants": {
+        "LCS_thresh": 0.78,
+        "empty_timeout": 5,
+        "retry_patience": 3,
+        "gc_interval": 10
+    },
+    "reagents": [
+        [
+            "BLACK LOTUS",
+            20
+        ],
+        [
+            "DEEP MUSHROOM",
+            20
+        ],
+        [
+            "MIST WOOD",
+            20
+        ]
+    ]
+}

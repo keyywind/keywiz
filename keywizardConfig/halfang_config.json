@@ -1,0 +1,276 @@
+{
+    "bounding_boxes": {
+        "window": [
+            6,
+            36,
+            800,
+            600
+        ],
+        "book": [
+            698,
+            498,
+            100,
+            100
+        ],
+        "pass": [
+            206,
+            326,
+            100,
+            100
+        ],
+        "deck": [
+            163,
+            250,
+            480,
+            100
+        ],
+        "slot": [
+            26,
+            16,
+            430,
+            70
+        ],
+        "orbs": [
+            1,
+            472,
+            128,
+            128
+        ],
+        "avai": [
+            372,
+            130,
+            64,
+            64
+        ],
+        "digh": [
+            12,
+            510,
+            70,
+            30
+        ],
+        "digm": [
+            67,
+            536,
+            50,
+            30
+        ]
+    },
+    "constants": {
+        "potion_quantity": 5,
+        "heal_health_score": 2,
+        "refill_health_score": 0,
+        "refill_mana_score": 0,
+        "dungeon_patience": 3,
+        "refill_mana_score_2": 50,
+        "refill_patience": 5,
+        "heal_rate": 0.5,
+        "enchant_timeout": 5
+    },
+    "models": {
+        "book": "./keywizardModel/book_predictor.pb",
+        "pass": "./keywizardModel/pass_predictor.pb",
+        "deck": "./keywizardModel/deck_predictor.pb",
+        "card": "./keywizardModel/card_predictor.pb",
+        "orbh": "./keywizardModel/orbh_predictor.pb",
+        "orbm": "./keywizardModel/orbm_predictor.pb",
+        "avai": "./keywizardModel/avai_predictor.pb"
+    },
+    "variables": {
+        "yellow_text_hsv": {
+            "lower": [
+                30,
+                200,
+                84
+            ],
+            "upper": [
+                30,
+                255,
+                255
+            ]
+        }
+    },
+    "slot_bounding_boxes": [
+        [
+            [
+                220,
+                0,
+                45,
+                72
+            ]
+        ],
+        [
+            [
+                194,
+                0,
+                45,
+                72
+            ],
+            [
+                247,
+                0,
+                45,
+                72
+            ]
+        ],
+        [
+            [
+                166,
+                0,
+                45,
+                72
+            ],
+            [
+                220,
+                0,
+                45,
+                72
+            ],
+            [
+                273,
+                0,
+                45,
+                72
+            ]
+        ],
+        [
+            [
+                140,
+                0,
+                45,
+                72
+            ],
+            [
+                194,
+                0,
+                45,
+                72
+            ],
+            [
+                247,
+                0,
+                45,
+                72
+            ],
+            [
+                301,
+                0,
+                45,
+                72
+            ]
+        ],
+        [
+            [
+                113,
+                0,
+                45,
+                72
+            ],
+            [
+                166,
+                0,
+                45,
+                72
+            ],
+            [
+                220,
+                0,
+                45,
+                72
+            ],
+            [
+                273,
+                0,
+                45,
+                72
+            ],
+            [
+                327,
+                0,
+                45,
+                72
+            ]
+        ],
+        [
+            [
+                86,
+                0,
+                45,
+                72
+            ],
+            [
+                141,
+                0,
+                45,
+                72
+            ],
+            [
+                193,
+                0,
+                45,
+                72
+            ],
+            [
+                247,
+                0,
+                45,
+                72
+            ],
+            [
+                301,
+                0,
+                45,
+                72
+            ],
+            [
+                354,
+                0,
+                45,
+                72
+            ]
+        ],
+        [
+            [
+                58,
+                0,
+                45,
+                72
+            ],
+            [
+                113,
+                0,
+                45,
+                72
+            ],
+            [
+                167,
+                0,
+                45,
+                72
+            ],
+            [
+                220,
+                0,
+                45,
+                72
+            ],
+            [
+                274,
+                0,
+                45,
+                72
+            ],
+            [
+                327,
+                0,
+                45,
+                72
+            ],
+            [
+                381,
+                0,
+                45,
+                72
+            ]
+        ]
+    ]
+}
